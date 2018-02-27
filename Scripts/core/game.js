@@ -9,8 +9,8 @@
     //number
     //string
     //boolean
-    //any (loose typing - NEVER use)
     //object
+    //any (loose typing - NEVER use)
     //and some others
     //js does type inference, it's all implicit
 
@@ -18,28 +18,29 @@
      * we're using _varname to designate a constant
      */
 
-    /* wouldn't it be nice if we could specify return types, etc. in javascript?
+    /* wouldn't it be nice if we could specify return types, etc. in
+     * javascript?
      * that's where either Babel or Typescript come in
      * hence, change extension to .ts
      * problem: browsers don't understand Typescript
      * have to do transpile
      */
     let canvas = document.getElementById("canvas");
-    let stage: createjs.Stage;
+    //let stage: createjs.Stage;
 
-    function Init():void {
-        console.log("Game Start");
+    function Init() {
+        console.log("Initialization Started");
     }
 
-    function Start():void {
-
-    }
-
-    function Update():void {
+    function Start() {
 
     }
 
-    function Main():void {
+    function Update() {
+
+    }
+
+    function Main() {
 
     }
 
