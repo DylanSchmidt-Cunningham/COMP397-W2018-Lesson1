@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DylanSchmidt-Cunningham/COMP397-W2018-Lesson1/issues"
   },
-  "homepage": "https://github.com/DylanSchmidt-Cunningham/COMP397-W2018-Lesson1#readme"
+  "homepage": "https://github.com/DylanSchmidt-Cunningham/COMP397-W2018-Lesson1#readme",
+  "devDependencies": {
+    "@types/easeljs": "^1.0.0"
+  }
 }
